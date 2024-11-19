@@ -8,8 +8,12 @@
 
 ## 回路図
 ハードウェアの回路図は以下の通りです．
+<p align="center">
   ![Schematic](img/Schematic.png)
+</p>
 
 ## プログラム説明
 BarCode.inoのプログラムをフローチャートで表した図を図1に示す．
-  ![Schematic](img/Schematic.png)
+  ![Flowchart](img/Flowchart.png)
+図1 BarCord.inoのフローチャート
+
