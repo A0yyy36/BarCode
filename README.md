@@ -14,18 +14,23 @@
 <p align="center">図1 Arduino Unoとフォトリフレクタを用いたバーコードリーダー</p>
 
 ## プログラム説明
+### 実行プログラム
 BarCode.inoのプログラムのフローチャートを図2に示す．
 <p align="center">
   <img src="https://github.com/A0yyy36/BarCode/blob/main/img/Flowchart.png" />
 </p>
 <p align="center">図2 BarCord.inoのフローチャート</p>
 
+### 基準幅更新プログラム
+このプログラムは，読み取り速度が一定でなくてもバーの比率算出に影響を受けず，正確に値を読み取ることが出来るプログラムである．
 基準幅の更新プログラムのフローチャートを図3に示す．
 <p align="center">
   <img src="https://github.com/A0yyy36/BarCode/blob/main/img/UpdateBar.png" />
 </p>
 <p align="center">図3 基準幅更新プログラムのフローチャート</p>
 
+### 近似配列格納プログラム
+このプログラムは，どこか一か所読み取りエラーが起きて幅を正確に測定できなくても正しい値に変換することができるプログラムである．
 近似配列格納プログラムのフローチャートを図4に示す．
 <p align="center">
   <img src="https://github.com/A0yyy36/BarCode/blob/main/img/Approximate.png" />
