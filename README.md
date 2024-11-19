@@ -8,4 +8,6 @@
 
 ## 回路図
 ハードウェアの回路図は以下の通りです．
-![Schematic]()
+  ![Schematic](img/Schematic.png)
+
+## 
