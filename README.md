@@ -7,13 +7,16 @@
 このペン型バーコードリーダーは、読み取り部分が直接バーコードに触れる設計であるため、手振れや読み取り速度の変動により精度が低下するという課題がありました。そこで、ソフトウェア面での解決策として、以下の取り組みを行いました。まず、バーコードの基準となる幅を動的に調整するアルゴリズムを設計・実装しました。さらに、読み取り時に生じる誤差を軽減する近似アルゴリズムを開発し、全桁の正確な読み取りを可能にしました．
 
 ## 回路図
-ハードウェアの回路図は以下の通りです．
+ハードウェアの回路図を図1に示す．
 <p align="center">
-  ![Schematic](img/Schematic.png)
+  <img src="https://github.com/A0yyy36/BarCode/blob/main/img/Approximate.png" />
 </p>
+<p align="center">図1 Arduino Unoとフォトリフレクタを用いたバーコードリーダー</p>
 
 ## プログラム説明
-BarCode.inoのプログラムをフローチャートで表した図を図1に示す．
-  ![Flowchart](img/Flowchart.png)
-図1 BarCord.inoのフローチャート
+BarCode.inoのプログラムをフローチャートで表した図を図2に示す．
+<p align="center">
+  <img src="https://github.com/A0yyy36/BarCode/blob/main/img/Flowchart" />
+</p>
+<p align="center">図2 BarCord.inoのフローチャート</p>
 
