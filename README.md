@@ -9,14 +9,25 @@
 ## 回路図
 ハードウェアの回路図を図1に示す．
 <p align="center">
-  <img src="https://github.com/A0yyy36/BarCode/blob/main/img/Approximate.png" />
+  <img src="https://github.com/A0yyy36/BarCode/blob/main/img/Schematic.png" />
 </p>
 <p align="center">図1 Arduino Unoとフォトリフレクタを用いたバーコードリーダー</p>
 
 ## プログラム説明
-BarCode.inoのプログラムをフローチャートで表した図を図2に示す．
+BarCode.inoのプログラムのフローチャートを図2に示す．
 <p align="center">
-  <img src="https://github.com/A0yyy36/BarCode/blob/main/img/Flowchart" />
+  <img src="https://github.com/A0yyy36/BarCode/blob/main/img/Flowchart.png" />
 </p>
 <p align="center">図2 BarCord.inoのフローチャート</p>
 
+基準幅の更新プログラムのフローチャートを図3に示す．
+<p align="center">
+  <img src="https://github.com/A0yyy36/BarCode/blob/main/img/UpdateBar.png" />
+</p>
+<p align="center">図3 基準幅更新プログラムのフローチャート</p>
+
+近似配列格納プログラムのフローチャートを図4に示す．
+<p align="center">
+  <img src="https://github.com/A0yyy36/BarCode/blob/main/img/Approximate.png" />
+</p>
+<p align="center">図4 近似配列格納プログラムのフローチャート</p>
